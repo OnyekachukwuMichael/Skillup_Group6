@@ -1,0 +1,135 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.top{
+    background-image: url('img1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-left: 40px;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    height: 50px;
+}
+
+.links ul{
+    color: white;
+    font-family: Arial;
+    font-size: 15px;
+    list-style-type: none;
+    margin-top: 2.5rem;
+    margin-left: 1.5rem;
+}
+
+.links ul li{
+    display: inline;
+    margin: .4rem;
+}
+
+.links ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.links ul li a:hover{
+    border-bottom: 1px solid white;
+    transition: ease-in-out 3sec;
+}
+
+.shop{
+    margin-top: 2rem;
+}
+
+.shop a{
+    color: white;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.ham{
+    margin-top: 2.5rem;
+    margin-right: 3rem;
+    cursor: pointer;
+}
+
+.ham span{
+    border: 1px solid white;
+    margin: .2rem;
+    display: block;
+    width: 1rem;
+}
+
+.mission{
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    color: white;
+}
+
+.current{
+    font-size: 1.2rem;
+    font-family: verdana;
+
+}
+
+.crew{
+    font-size: 2.5rem;
+    font-family: verdana;
+}
+
+.task-2{
+    background-image: url('img2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.task-3{
+    background-image: url('img3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.task-4{
+    background-image: url('img4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.task-5{
+    background-image: url('img5.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover{
+    color: #808080;
+}
